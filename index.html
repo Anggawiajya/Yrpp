@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FiveM Style Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Navbar -->
+    <div class="navbar">
+      <h1>Samp Client</h1>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="layout">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <ul>
+          <li class="active">Server List</li>
+          <li>Player Stats</li>
+          <li>Settings</li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+        <h2>Server List</h2>
+ <!--        <div class="server">
+          <h3>Roleplay Server</h3>
+          <p>IP: 192.168.1.100:7777</p>
+          <button>Join Server</button>
+        </div> -->
+        <div class="server">
+          <h3>Yumemachi Roleplay</h3>
+          <p>IP: 192.168.1.101:7777</p>
+          <button onclick="joinServer()">Join Server</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
